@@ -1,0 +1,145 @@
+#001
+
+"""firstname = input("Please enter your first name: ")
+print ("Hello", firstname)"""
+
+
+#002
+
+"""firstname = input("Please enter your firstname: ")
+surname = input("Please enter your surname: ")
+print("Name = ", firstname, surname)"""
+
+
+
+#003
+'''print("What do you call a bear with no teeth?\n A gummy bear!")'''
+
+
+
+#004
+
+"""num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a second number: "))
+
+answer = num1 + num2
+
+print("The answer is", answer)"""
+
+
+
+#005
+
+"""num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a second number: "))
+num3 = int(input("Enter a third number: "))
+
+answer = (num1 + num2)*num3
+
+print("The answer is", answer)"""
+
+
+
+#006
+
+'''slices_start = int(input("How many slices did you start with? "))
+slices_end = int(input("How many slices have you eaten?"))
+
+slices_left = slices_start - slices_end
+
+print("You have", slices_left, "slices left!")'''
+
+
+#007
+
+'''name = input("What is your name?")
+
+age = int(input("How old are you?"))
+
+age2 = age+1
+
+print (name, ", next birthday you will be",age2)
+'''
+
+#008
+
+'''total = int(input("Total price of the bill: "))
+diners = int(input("Number of diners: "))
+
+each = total/diners
+
+print(each)'''
+
+
+#009
+
+'''days = int(input("Enter number of days: "))
+
+hours = days*24 
+
+minutes = hours*60
+
+seconds = minutes*60
+
+print('Those are', hours, 'hours,',minutes, 'minutes', seconds, 'seconds')
+'''
+
+#010
+
+'''kg = int(input('weight in kilograms: '))
+
+pound = kg*2204
+
+print(pound, "pounds")'''
+
+
+#011
+
+'''large = int(input("Enter a number over 100: "))
+small = int(input("Enter a number under 10:"))
+
+answer = large/small
+
+print(small,"enters",large, answer, "times")'''
+
+
+#Page 19
+'''num = 12
+
+if num > 10:
+    print("The number is greater than 10")
+else:
+    print("The number is not greater than 10")'''
+
+
+
+
+'''num1 = 10
+
+if num1>10:
+    print("This number is over 10")
+elif num1==10:
+
+    print("This number is equal to 10")
+else:
+    print("This is under 10")'''
+
+    
+'''num = 5
+
+if num >= 10:
+    if num<= 20:
+        print("This is between 10 and 20")
+    else:
+        print("This is over 20")
+else:
+        print("This is under 10")'''
+
+
+num = int(input("Enter a number between 10 and 20: "))
+
+if num >= 10 and num <=20:
+    print("Thank you. : )")
+
+else:
+    print("Out of range :( ")
