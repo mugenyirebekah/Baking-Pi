@@ -225,3 +225,63 @@ total_length = length1 + length2
 
 print(firstname +" "+ surname)
 print(total_length)'''
+
+
+#022
+
+'''firstname = input("Enter your first name in lower case: ")
+surname = input("Enter you surname in lower case: ")
+
+firstname = firstname.title()
+surname = surname.title()
+
+print(firstname, " ", surname)'''
+
+#023
+
+'''line = input("Type in the first line of a nursery rhyme: ")
+length = len(line)
+
+print("This line has ", length, "letters")
+
+start_no = int(input("Enter a starting number: "))
+
+end_no = int(input("Enter an ending number: "))
+
+part = (line[start_no:end_no])
+
+print(part)'''
+
+#024
+
+'''word = input("Enter a word: ")
+word = word.upper()
+print(word)'''
+
+#025
+
+'''first_name = input("Enter your first name: ")
+
+length = len(first_name)
+
+if length < 5:
+    surname = input("Enter your surname: ")
+    name = first_name + surname
+    print(name.upper())
+
+else:
+   l_m = first_name.lower()
+   print(l_m)'''
+
+#026
+
+word = input(Enter a word)
+
+first_letter = word[0]
+
+if first_letter != a and !=e and !=i and != o and != u:
+    word_p = word.lower()
+    print(word_p + "ay")
+
+else:
+    print(word + "way")
