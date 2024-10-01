@@ -273,9 +273,9 @@ else:
    l_m = first_name.lower()
    print(l_m)'''
 
-#026
+#026 (STILL WORKING ON THIS)
 
-word = input(Enter a word)
+'''word = input(Enter a word)
 
 first_letter = word[0]
 
@@ -284,4 +284,23 @@ if first_letter != a and !=e and !=i and != o and != u:
     print(word_p + "ay")
 
 else:
-    print(word + "way")
+    print(word + "way")'''
+
+
+#045
+
+'''total = 0
+
+while total <= 50:
+   num = int(input("Enter a number: "))
+   total = total + num
+print("The total is", total)'''
+
+#046
+
+''''number = 0
+
+while number <=5:
+   number = int(input("Enter a number: "))
+
+print("The last number you entered was a", number)''''
