@@ -298,9 +298,97 @@ print("The total is", total)'''
 
 #046
 
-''''number = 0
+'''number = 0
 
 while number <=5:
    number = int(input("Enter a number: "))
 
-print("The last number you entered was a", number)''''
+print("The last number you entered was a", number)'''
+
+
+#052
+
+'''import random
+num = random.randint(1,100)
+print(num)'''
+
+#053
+
+'''import random
+fruit = random.choice(["Apples", "Bananas", "Oranges", "Grapes"])
+print(fruit)'''
+
+#054
+
+'''import random
+
+
+def question():
+
+
+    choice = input("Heads or tails? [input h/t]: ")
+    random_choice = random.choice(["h", "t"])
+
+    print("\n Your choice:", choice)
+    print("   Correct choice:", random_choice)
+
+    if (random_choice == 'h' and choice == 'h') or (random_choice == 't' and choice == 't'):
+        print("\n You win")
+
+    else: 
+        print("\n Bad luck")
+
+
+def main():
+    question()
+    main()
+main()
+'''
+
+#059
+
+def play_again():
+    play = input("Would you like to play again? [y/n]")
+    
+    if play == 'y':
+        print("yes")
+        
+        guess_game()
+
+    else:
+        print("GAME ENDED")
+
+
+def guess_game():
+    import random
+    random_color = random.choice(["green", "blue", "red", "yellow", "orange"])
+    tryagain = True
+
+    while tryagain == True:
+
+        color_guess = input("Select a color: ")
+        color_guess = color_guess.lower()
+
+        if random_color == color_guess:
+            print("Well done.")
+            tryagain = False
+        
+        else:
+
+            if random_color == "green":
+                print("You guessed it wrong, but don't be GREEN with envy")
+            elif random_color == "blue":
+                print("You got it wrong...but don't feel BLUE")
+            elif random_color == "red":
+                print("Don't go RED with anger...but...you're wrong")
+            elif random_color == "yellow":
+                print("YELLOOO...you got it wrong")
+            elif random_color == "orange":
+                print("ORANGE you glad you can guess again?")
+
+
+
+def main():
+    guess_game()
+main ()
+    
