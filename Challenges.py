@@ -346,8 +346,9 @@ main()
 '''
 
 #059
-
-def play_again():
+#################################
+#TRY TO INCOPORATE THIS INTO THE CODE
+'''def play_again():
     play = input("Would you like to play again? [y/n]")
     
     if play == 'y':
@@ -356,10 +357,10 @@ def play_again():
         guess_game()
 
     else:
-        print("GAME ENDED")
+        print("GAME ENDED")'''
 
-
-def guess_game():
+###################################
+'''def guess_game():
     import random
     random_color = random.choice(["green", "blue", "red", "yellow", "orange"])
     tryagain = True
@@ -390,5 +391,96 @@ def guess_game():
 
 def main():
     guess_game()
-main ()
+main ()'''
     
+#060
+#square
+'''import turtle
+
+for i in range(0,4):
+    turtle.forward(100)
+    turtle.right(90)
+
+turtle.exitonclick()'''
+
+#061
+#triangle
+'''import turtle
+
+for i in range(0,3):
+    turtle.forward(100)
+    turtle.right(120)
+turtle.exitonclick()'''
+
+#062
+
+#Circle
+'''import turtle
+
+for i in range(0,360):
+    turtle.forward(1)
+    turtle.right(1)
+
+
+
+turtle.exitonclick()'''
+
+#067
+
+'''import turtle
+import random
+
+for x in range(0,10):
+    for i in range (0,8):
+        turtle.forward(50)
+        turtle.right(45)
+    turtle.right(36)
+
+turtle.hideturtle()
+turtle.exitonclick()'''
+
+
+###########
+
+import turtle
+import random
+
+turtle.color("purple")
+for x in range(0,2):
+    for i in range (0,8):
+        turtle.forward(80)
+        turtle.right(45)
+
+    turtle.right(36)
+
+turtle.color("pink")
+
+for x in range(0,3):
+    for i in range (0,8):
+        turtle.forward(80)
+        turtle.right(45)
+
+    turtle.right(36)
+
+
+turtle.color("blue")
+
+for x in range(0,3):
+    for i in range (0,8):
+        turtle.forward(80)
+        turtle.right(45)
+
+    turtle.right(36)
+
+turtle.color("violet")
+
+for x in range(0,3):
+    for i in range (0,8):
+        turtle.forward(80)
+        turtle.right(45)
+
+    turtle.right(36)
+
+
+turtle.hideturtle()
+turtle.exitonclick()
