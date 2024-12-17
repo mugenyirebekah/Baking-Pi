@@ -10,6 +10,7 @@
 #The contents of a dictionary can also be changed while the program is running.
 
 #EXAMPLE CODE
+'''
 
 fruit_tuple = ("apple", "banana", "strawberry", "orange")
 
@@ -29,3 +30,16 @@ names_list.append(input("Enter another name: "))
 
 print("Names in alphabetical order:", sorted(names_list))
 
+colours = {1: "red", 2:"blue", 3:"green"}
+
+colours[2] = "yellow"
+
+print(colours)
+
+'''
+
+#LIST EXAMPLES
+
+x = [154, 234, 865, 583, 4536]
+
+print(len(x))
