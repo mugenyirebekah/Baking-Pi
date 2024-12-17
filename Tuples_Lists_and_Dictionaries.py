@@ -43,3 +43,23 @@ print(colours)
 x = [154, 234, 865, 583, 4536]
 
 print(len(x))
+
+print(x[1:4])
+
+for i in x:
+    print(i)
+
+num = int(input("Enter a number: "))
+if num in x:
+    print(num, "is in the list")
+
+else:
+    print("Not in the list")
+
+x.insert(2, 420)
+
+x.remove(583)
+
+x.append(993)
+
+print(x)
