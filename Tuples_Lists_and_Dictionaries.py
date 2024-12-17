@@ -12,3 +12,5 @@
 #EXAMPLE CODE
 
 fruit_tuple = ("apple", "banana", "strawberry", "orange")
+
+print(fruit_tuple.index("strawberry"))
