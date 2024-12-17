@@ -14,3 +14,18 @@
 fruit_tuple = ("apple", "banana", "strawberry", "orange")
 
 print(fruit_tuple.index("strawberry"))
+
+print(fruit_tuple[2])
+
+names_list = ["John", "Tim", "Sam"]
+
+del names_list[1]
+
+names_list.append(input("Add a name: "))
+
+print(names_list)
+
+names_list.append(input("Enter another name: "))
+
+print("Names in alphabetical order:", sorted(names_list))
+
