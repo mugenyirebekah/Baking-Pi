@@ -6,5 +6,5 @@ print(countries)
 
 print()
 
-country = input("Enter one of the listed cuntries")
+country = input("Enter one of the listed cuntries: ")
 print(country, "has index number", countries.index(country))
