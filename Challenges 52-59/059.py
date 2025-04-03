@@ -15,24 +15,24 @@ if answer == colour:
 
 while answer != colour:
 
-    if answer == "red":
+    if colour == "red":
         print("Don't be red with anger, try again")
         
 
-    elif answer == "orange":
+    elif colour == "orange":
         print("Orange you glad you tried?")
 
-    elif answer == "blue":
+    elif colour == "blue":
         print("Don't be blue, try again")
 
-    elif answer == "green":
+    elif colour == "green":
         print("Don't be green with envy, try again")    
 
 
-    elif answer == "pink":
+    elif colour == "pink":
         print("Well I'm tickled pink that you tried...but try again")    
 
-    elif answer == "blue":
+    elif colour == "blue":
         print("Don't be blue, try again")
 
     answer = input("Pick one!: ")
