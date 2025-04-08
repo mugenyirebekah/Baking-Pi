@@ -1,6 +1,9 @@
 from array import *
 
-nums = ('i', [12,13,14,15,11])
+nums = array('i', [12,13,14,15,11])
+print(nums)
+
+print("")
 
 select = int(input("Enter one of the numbers: "))
 
@@ -14,3 +17,4 @@ else:
         if select in nums:
             print(nums.index(select))
             test = True
+
