@@ -5,7 +5,7 @@ from time import strftime
 root=tk.Tk()
 root.title("Digital Clock")
 
-clock_label = tk.Label(root, font=("Helvetica",48),bg="black",fg="cyan")
+clock_label = tk.Label(root, font=("Helvetica",48),bg="black",fg="pink")
 
 clock_label.pack(anchor="center", fill="both", expand=True)
 
